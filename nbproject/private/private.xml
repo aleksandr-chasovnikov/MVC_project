@@ -6,7 +6,11 @@
             <file>file:/C:/wamp/www/MVC/components/Router.php</file>
             <file>file:/C:/wamp/www/MVC/.htaccess</file>
             <file>file:/C:/wamp/www/MVC/config/routes.php</file>
+            <file>file:/C:/wamp/www/MVC/controllers/NewsController.php</file>
+            <file>file:/C:/wamp/www/MVC/models/Article.php</file>
+            <file>file:/C:/wamp/www/MVC/models/Product.php</file>
             <file>file:/C:/wamp/www/MVC/index.php</file>
+            <file>file:/C:/wamp/www/MVC/models/News.php</file>
         </group>
     </open-files>
 </project-private>
