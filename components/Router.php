@@ -38,8 +38,10 @@ class Router
                 $segments = explode('/', $path);
                 $cotrollerName = array_shift($segments).'Controller';
                 $cotrollerName = ucfirst($cotrollerName);
-                echo $cotrollerName;
                 
+                $actionName = 'action'.ucfirst(array_shift($segments));
+                
+                echo $actionName;
             }
         }
         
