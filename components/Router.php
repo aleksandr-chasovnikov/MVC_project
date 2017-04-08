@@ -36,18 +36,17 @@ class Router
                
                 // Определить какой контроллер, action, параметры
                 
-                $segments = explode('/', $path);
+                $segments = explode('/', $internalRoute);
                 
-                $controllerName = array_shift($segments);
-                $controllerName = array_shift($segments).'Controller';
+                $controllerName = array_shift($segments) . 'Controller';
                 $controllerName = ucfirst($controllerName);
                 
-                $actionName = 'action'.ucfirst(array_shift($segments));
+                $actionName = 'action' . ucfirst(array_shift($segments));
                                 
                 $parameters = $segments;
                 
                 // Подключить файл класса-контроллера
-                $controllerFile = ROOT . '/controller/' .
+                $controllerFile = ROOT . '/controllers/' .
                 $controllerName . '.php';
                 
                 if (file_exists($controllerFile)) {
